@@ -8,7 +8,7 @@ class AlbumControllerTest extends AbstractHttpControllerTestCase {
 
     public function setUp() {
         $this->setApplicationConfig(
-                include 'c:\projets\wamp\www\zf2-skeleton\config\application.config.php'
+                include __DIR__.'/../../../../../config/application.config.php'
         );
         parent::setUp();
     }
